@@ -62,6 +62,7 @@ align-items: center;
  @media screen and (max-width: 576px) {
     .navbar,
     .nav-links,
+    .Features,
     .teams
     {
         flex-direction: column;
@@ -85,11 +86,15 @@ align-items: center;
 }
  }
  @media screen and (main-width:576px) and(max-width:992psx) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-feature{
         margin: 50px auto;
+    }
+    #experimence-badge{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .sponsor-companies,.facts-container{
         grid-template-columns: repeat(2, 1fr);
@@ -188,5 +193,18 @@ align-items: center;
 .features{
     gap: 140px;
 }
-
+#experimence-badge{
+    padding: 45px 42px;
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.featued-architect{
+    width: 100%;
+}
+#experimence-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
     
